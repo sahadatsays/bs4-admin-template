@@ -92,3 +92,17 @@ body {
 }
 
 /* END OF CARDS */
+
+/* -/ Progress-bar and Tasks */
+.tasks-list {
+    border-left: 3px solid #2c2c;
+    box-shadow: 1px 2px 5px #999;
+    transition: all .5s;
+}
+
+.tasks-list:hover {
+    box-shadow: 2px 3px 10px #999;
+    transform: translateY(-2px)
+}
+
+/* -/ End of Progress-bar and Tasks */
