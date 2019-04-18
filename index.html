@@ -235,156 +235,246 @@
 
     <!-- TABLES -->
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid bg-light">
             <div class="row">
                 <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
                     <div class="row mt-4 pt-3 mb-5">
-                        <div class="col-sm-12">
-                            <h4 class="text-center pb-3">Recent Sales Report </h4>
+                        <div class="col-xl-6 col-sm-12 bg-white rounded">
+                            <h4 class="text-center mt-2 bg-info py-2 text-white">Recent Sales Report </h4>
+                            <hr>
                             <div class="">
                                 <table class="table table-bordered table-striped">
-                                    <thead class="bg-dark text-white">
+                                    <thead class="thead-dark">
                                         <tr>
+                                        <th>#</th>
                                         <th>Name</th>
-                                        <th>Sale Amount</th>
+                                        <th>Salary</th>
                                         <th>Date</th>
-                                        <th>Action</th>
+                                        <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
+                                            <td>1</td>
                                             <td>M Sahadat </td>
                                             <td>$5500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-success btn-sm">Approved</button>
+                                                <span class="badge badge-success w-75 py-2">Approve</span>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>2</td>
                                             <td>M Sahadat </td>
                                             <td>$5500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-success btn-sm">Approved</button>
+                                                <span class="badge badge-danger text-light w-75 py-2">Rejected</span>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>3</td>
                                             <td>M Hasan </td>
                                             <td>$5800 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-success btn-sm">Approved</button>
+                                                <span class="badge badge-success w-75 py-2">Approve</span>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>4</td>
                                             <td>Mr Hossain </td>
                                             <td>$2500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-warning btn-sm">Pedning</button>
+                                                <span class="badge badge-warning text-light w-75 py-2">Pending</span>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>5</td>
                                             <td>Mr Khan </td>
                                             <td>$8500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-warning btn-sm">Pending</button>
+                                                <span class="badge badge-success w-75 py-2">Approve</span>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>6</td>
                                             <td>M Sahadat </td>
                                             <td>$5500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-success btn-sm">Approved</button>
+                                                <span class="badge badge-warning text-light w-75 py-2">Pending</span>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>7</td>
                                             <td>M Sahadat </td>
                                             <td>$5500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-danger btn-sm">Reject</button>
+                                                <span class="badge badge-success w-75 py-2">Approve</span>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
+                                <!-- // PAGINATION -->
+                                <nav>
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item">
+                                            <a href="#" class="page-link px-3 py-2">
+                                                <span>&laquo;</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link px-3 py-2">
+                                                1
+                                            </a>
+                                        </li>
+                                        <li class="page-item active">
+                                            <a href="#" class="page-link px-3 py-2">
+                                               2
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link px-3 py-2">
+                                                3
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link px-3 py-2">
+                                                <span>&hellip;</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link px-3 py-2">
+                                                <span>&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!-- END OF PAGIANTION -->
                             </div>
                         </div>
 
-                        <div class="col-sm-12">
-                            <h4 class="text-center mt-2">Sales Report </h4>
+                        <div class="col-xl-6 col-sm-12 bg-white rounded">
+                            <h4 class="text-center mt-2 bg-dark py-2 text-white">Staff Salary  </h4>
                             <hr>
                             <div class="">
-                                <table class="table table-bordered table-dark table-hover table-striped">
+                                <table class="table table-bordered table-dark table-hover table-striped justify-content-center">
                                     <thead class="">
                                         <tr>
-                                        <th>Name</th>
-                                        <th>Sale Amount</th>
-                                        <th>Date</th>
-                                        <th>Action</th>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Sale Amount</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Contact </th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
+                                            <td scope="row">1</td>
                                             <td>M Sahadat </td>
                                             <td>$5500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-success btn-sm">Approved</button>
+                                                <button class="btn btn-info btn-sm">Message </button>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td scope="row">2</td>
                                             <td>M Sahadat </td>
                                             <td>$5500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-success btn-sm">Approved</button>
+                                                <button class="btn btn-info btn-sm">Message </button>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td scope="row">3</td>
                                             <td>M Hasan </td>
                                             <td>$5800 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-success btn-sm">Approved</button>
+                                                <button class="btn btn-info btn-sm">Message </button>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td scope="row">4</td>
                                             <td>Mr Hossain </td>
                                             <td>$2500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-warning btn-sm">Pedning</button>
+                                                <button class="btn btn-info btn-sm">Message </button>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td scope="row">5</td>
                                             <td>Mr Khan </td>
                                             <td>$8500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-warning btn-sm">Pending</button>
+                                                <button class="btn btn-info btn-sm">Message </button>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td scope="row">6</td>
                                             <td>M Sahadat </td>
                                             <td>$5500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-success btn-sm">Approved</button>
+                                                <button class="btn btn-info btn-sm">Message </button>
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td scope="row">7</td>
                                             <td>M Sahadat </td>
                                             <td>$5500 </td>
                                             <td>05/04/2018 </td>
                                             <td>
-                                                <button class="btn btn-danger btn-sm">Reject</button>
+                                                <button class="btn btn-info btn-sm">Message </button>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
+
+                                <!-- // PAGINATION -->
+                                <nav>
+                                        <ul class="pagination justify-content-center">
+                                            <li class="page-item">
+                                                <a href="#" class="page-link px-3 py-2">
+                                                    <span>Previous</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item active">
+                                                <a href="#" class="page-link px-3 py-2">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li class="page-item">
+                                                <a href="#" class="page-link px-3 py-2">
+                                                   2
+                                                </a>
+                                            </li>
+                                            <li class="page-item">
+                                                <a href="#" class="page-link px-3 py-2">
+                                                    3
+                                                </a>
+                                            </li>
+                                            <li class="page-item">
+                                                <a href="#" class="page-link px-3 py-2">
+                                                    <span>&hellip;</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item">
+                                                <a href="#" class="page-link px-3 py-2">
+                                                    <span>Next</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <!-- END OF PAGIANTION -->
                             </div>
                         </div>
                     </div>
